@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // 启用 Node ESM 模块解析，支持 node: 协议前缀
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    // 加载 node 内置类型
+    "types": ["node", "jest"],
+    // 允许 import from node:xxx
+    "target": "ES2020",
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true,   // 改为 true
+    "noEmit": true,                       // 仅类型检查，不输出 JS
+    "esModuleInterop": true,
+    "paths": {
+        "@/*": ["./src/*"]
+    }
+  },
+  // 如果你的脚本目录 ./claude/script 需要被 TS 识别，包含进 include
+  "include": [
+    "./.claude/**/*",
+    "./skills/**/*",
+    "src/**/*"
+  ]
+}

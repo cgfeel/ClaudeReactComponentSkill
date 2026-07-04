@@ -1,0 +1,42 @@
+{
+  "name": "claude-test",
+  "version": "1.0.0",
+  "description": "claude skills test",
+  "main": "/src/index.tsx",
+  "type": "module",
+  "scripts": {
+    "build": "tsc & vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "keywords": [
+    "claude",
+    "skills"
+  ],
+  "author": "levi <cgfeel@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4.3.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
+}
